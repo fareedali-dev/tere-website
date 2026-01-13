@@ -4,7 +4,9 @@
     background-color: white;
      padding: 1.8rem 2rem;
 }
-
+#nav>.fa-solid{
+    display: none;
+}
 #nav>.links>ul {
     list-style-type: none;
     /* align-items: center; */
@@ -14,7 +16,6 @@
     color: black;
     text-decoration: none;
 }
-
 #nav>.links>ul>li {
     display: inline;
     padding: 1rem;
@@ -32,6 +33,9 @@
     background-color: #75BF7A;
     color: white;
 }
+#parent{
+    display: none;
+}
 #pdf{
    display: flex;
    gap: 2rem;
@@ -40,6 +44,16 @@
  position: relative;
  bottom: 15rem;  
 }
+.fareed>img{
+    display: none;
+}
+.fareed1>img{
+    display: none;
+}
+.fareed2>img{
+    display: none;
+}
+
 #palce{
     display: flex;
     gap: 20rem;
@@ -85,10 +99,15 @@
     color: #75BF7A;
     text-transform:uppercase ;
 }
-.pa>p{
-    text-align: center;
+.par>p{
+    /* text-align: center; */
     color: #9E9DA2;
 }
+.pa>p{
+text-align: center;
+    color: #9E9DA2;
+}
+
 /* .im>img{
     
 } */
@@ -261,7 +280,7 @@
 }
 
 .contact {
-    gap: 2rem;
+    /* gap: 2rem; */
     display: flex;
     flex-direction: column;
 }
@@ -322,7 +341,296 @@ footer>p {
     text-align: center;
     color: #75BF7A;
 }
+@media (max-width:320px){
+    #nav>.links{
+         display: none;
+    }
+}
+@media (max-width:320px){
+    #nav>.logo>img{
+        position: relative;
+        padding-right: 13rem;
+    }
+}
+@media (max-width:320px){
+#nav>.fa-solid{
+    display: block;
+     padding-top: 1.5rem;
+     position: relative;
+     right: 9rem;
+}
+}
+
+@media (max-width:320px){
+   #pdf>#pdf1>.images3{
+    display: none;
+   } 
+}
+/* @media(max-width:320px){
+    .fareed>img{
+         display: block;
+    }
+    } */
+
+@media(max-width:320px){
+    .ha>h1{
+        position: relative;
+        padding-top: 27rem;
+    }
+}
+@media(max-width:320px){
+    .fareed>img{
+        display: block;
+        position: relative;
+        bottom: 50rem;
+        z-index: 1;
+    }
+}
+@media(max-width:320px){
+    .fareed1>img{
+         display: block;
+         z-index: 2;
+    position: relative;
+    bottom: 60.4rem;
+    }
+}
+@media(max-width:320px){
+    .fareed2>img{
+        display: block;
+        position: relative;
+     bottom: 60rem;
+    }
+}
+@media(max-width:320px){
+        .ha>h1{
+            display: none;
+        }  
+ }
+@media(max-width:320px){
+        .par>p{
+            display: none;
+        }
+}
+
+@media (max-width:320px){
+    #pdf>.images2{
+    /* width: 2rem;
+    height: auto; */
+    }
+}
 
 
 
+    @media(max-width:320px){
+        .ha>h1{display: block;
+          position: relative;
+         bottom: 1rem;
+         text-transform: capitalize;
+         text-align: center;
+          /* justify-content: center; */
+        }
+    }
+    @media(max-width:320px){
+        .par>p{
+            display: block;
+            position: relative;
+            bottom: 1rem;
+           text-align: center;
+        }
+    }
+  @media(max-width:320px){
+    #pdf{
+        display: none;
+    }
+  }
+  @media(max-width:320px){
+    #pdf{
+        display: block;
+        position: relative;
+        bottom: 1rem;
+        padding-left: 1.5rem;
+    }
+  }
+ @media(max-width:320px){
+    #palce>.p-text{
+        padding-left: 3rem;
+    }
+ }
+ @media(max-width:320px) {
+    #palce>.p-text>p{
+        text-align: center;
+    }
+    
+ }
+    @media(max-width:320px){
+        #palce{
+               /* flex-direction: column-reverse;
+        /* align-items: center; */
+        text-align: center;
+        position: relative;
+        bottom: 8rem; */
+    }
+        }
+    
+@media(max-width:320px){
+    .h>h1{
+     position: relative;
+     left: 1.1rem;
+     bottom: 4rem;  
+}}
+@media(max-width:320px){
+    .pa>p{
+         position: relative;
+     left: 1.1rem; 
+      bottom: 4rem;  
+    }
+}
+@media(max-width:320px){
+    .bg-image{
+        position: relative;
+    bottom: 58rem;
+     position: relative;
+     left: 1.5rem;
+     /* width: 100px;
+        height: 320px; */
+    }
+}
+@media(max-width:320px){
+    .mobile-image{
+        position: relative;
+        bottom: 85rem;
+        left:1.1rem;
+    }
+}
+@media(max-width:320px){
+   .steps-container>.steps>.step>h3>p{
+    position: relative;
+    top: 20rem;
+    
+   }
+}
+@media(max-width:320px){
+   .steps-container>.steps>.step>p{
+    position: relative;
+    top: 20rem;
+   
+   }}
+@media(max-width:320px){
+   .steps-container>.steps>.step>h3{
+         position: relative;
+    top: 20rem;
+    right:4rem;   
+   }}
+@media(max-width:320px){
+    .steps-container>.steps>.step>h3>P{
+       position: relative;
+       top: 5rem;
+    }
+}
+@media(max-width:320px){
+    .steps-container>.steps>.step2>h3{
+        position: relative;
+        bottom:48rem
+         
+       /* position:relative;
+       left: 2rem; */
+    }
+}
+@media(max-width:320px){
+    .steps-container>.steps>.step2>h3{
+        position: relative;
+        left: 5rem;
+    }}
+    @media(max-width:320px){
+    .steps-container>.steps>.step2>p{
+        position: relative;
+        bottom:48rem
+    }}
+     @media(max-width:320px){
+        .steps-container>.steps>.step2>p{
+            position: relative;
+            left: 3rem;
+        }
 
+     }
+ @media(max-width:320px){
+    .tere{
+        position: relative;
+        right: 30rem;
+        bottom: 50rem;
+    }
+ }  
+ @media(max-width:320px){
+    .cen>img{
+        display: none;
+    }
+ }
+@media(max-width:320px){
+    .beni>.beni-text>h2{
+        position: relative;
+        bottom: 50rem;
+        right: 7rem;
+    }
+}
+  @media(max-width:320px){
+.beni>.beni-text>P{
+    position: relative;
+        bottom: 50rem;
+        right: 7rem;
+}
+  }
+  @media(max-width:320px){
+    .beni>img{
+        position: relative;
+         bottom: 32rem;
+         right: 34rem;
+    }
+  } 
+  @media(max-width:320px){
+    .beni-2>.beni-text>h2{
+      position: relative;
+      left: 14rem;
+      top:2rem
+    }
+  }
+  @media(max-width:320px){
+    .beni-2>.beni-text>p{
+      position: relative;
+      left: 14rem;  
+    }
+  }
+  @media(max-width:320px){
+    .beni-2>img{
+        position: relative;
+      left: 32rem; 
+      top: 15rem;
+    }
+  }
+    @media(max-width:320px){
+        .end>.foot-text>img{
+            position: relative;
+            right: 4rem;
+            bottom: 30rem;
+        }
+    }
+      @media(max-width:320px){
+        .end>.foot-text>.contact>h3{
+            position: relative;
+            right: 17.5rem;
+            bottom: 22rem;
+        }
+      }
+     @media(max-width:320px){
+        .end>.foot-text>.contact>p{
+            position: relative;
+              right: 17.5rem;
+               bottom: 19rem;
+               gap: 2rem;   
+        }
+     } 
+     @media(max-width:320px){
+        .end>.foot-text>.foot-btn>button{
+            position: relative;
+            right: 40rem;
+        }
+     }
